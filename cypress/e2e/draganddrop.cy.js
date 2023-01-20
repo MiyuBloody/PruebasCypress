@@ -8,13 +8,6 @@ describe("prueba simple de drag and drop", () => {
     cy.url().should("contain", "/drag_and_drop");
   });
 
-  /* //para usar .drag es necesario instalar el paquete: npm install --save-dev @4tw/cypress-drag-drop
-  it("Cambiar A por B", () => {
-    cy.url().should("contain", "/drag_and_drop")
-    cy.get("#column-a").drag("#column-b")
-  }); */
-
-
 /*Se utiliza el objeto DataTransfer para simular un evento de arrastrar y soltar (drag and drop) 
 en la interfaz de usuario. El método "trigger" se utiliza para simular el evento "dragstart" en 
 el elemento con id "#column-a" y el evento "drop" en el elemento con id "#column-b". Esto simula 
