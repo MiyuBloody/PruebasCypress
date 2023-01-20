@@ -20,4 +20,4 @@ el elemento con id "#column-a" y el evento "drop" en el elemento con id "#column
 el proceso de arrastrar el bloque A y soltarlo en el bloque B.
 
 DataTransfer → es un objeto de la API de HTML. Internamente, el objeto DataTransfer almacena 
-información sobre los datos que se están arrastrando
+información sobre los datos que se están arrastrando.
