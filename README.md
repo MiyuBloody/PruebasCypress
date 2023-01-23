@@ -16,6 +16,11 @@ allí se simula otro tipo de drag and drop (tipo lista)
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/102371536/213705505-7fbd4ba1-8a99-448a-8039-5d15f0141b78.png">
 
+Para la siguiente prueba accederemos a [HTMLgoodies](http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html)
+
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/102371536/214031835-6121f15c-a001-4b2b-a754-ec8fb56ee4b0.png">
+
+
 
 ## El código
 ### Test simple
@@ -31,3 +36,11 @@ información sobre los datos que se están arrastrando.
 
 ### Test de Angular material
 Está en proceso
+
+### Test con función .drag()
+<img width="649" alt="image" src="https://user-images.githubusercontent.com/102371536/214031996-1fa4ad6f-dae4-4dee-a938-d828c5dd6ebf.png">
+Cypress utiliza la funcionalidad nativa del navegador para simular eventos de arrastrar y soltar. Esto significa que cuando se llama a la función .drag(), Cypress establece las propiedades del evento y las coordenadas del cursor para simular un comportamiento similar al de un usuario real que arrastra y suelta elementos (permite seleccionar los elementos de origen y destino y Cypress se encarga de simular los eventos necesarios)
+
+La función .drag() toma dos argumentos: el elemento de origen ('#box6') y el elemento de destino ('#box106').
+
+Se ha añadido la opción force:true, porque salía un error interno.
